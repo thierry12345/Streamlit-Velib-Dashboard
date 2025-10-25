@@ -18,19 +18,19 @@ The required libraries are listed in requirements.txt.
 
 2. Installation
 Clone the repository:
-git clone [YOUR_REPOSITORY_LINK]
+git clone https://github.com/thierry12345/Streamlit-Velib-Dashboard  
 cd Streamlit_Project  
 Install dependencies:
 pip install -r requirements.txt
 
 
-3. Run the app :Execute the following command in your terminal from the project root directory: streamlit run app.py
+4. Run the app :Execute the following command in your terminal from the project root directory: streamlit run app.py
 
     The application will automatically open in your default web browser.
 
 
 
-4. Data and technical details:
+5. Data and technical details:
 Dataset: Real-time Vélib' station availability data (snapshot from October 22nd).
 Key Filters: Geographical area (Commune) and Station Status (Full, Empty, Balanced).
 Technology Stack: Python, Pandas for data processing, Streamlit for the web application and visualization.
